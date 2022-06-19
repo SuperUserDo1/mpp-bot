@@ -1,6 +1,6 @@
 var MPPclient = require("mpp-client-xt")
 var mppClient = new MPPclient()
-var channel = "дИскорт"
+var channel = "[BOT] Tilda~Тильда [БОТ]"
 var admins = ["a888ef4e42c246c566455a9a", "3ca0d4e2836f354537cad392", "4c60f7e82bee4b895aa11e34"] // кот черно зел >:) // КОТ ТОК >:) //оранг >:)
 var owners = ["1e045d8824cd8f7f0e1aad72", "3373fcacc22903fa6b90dfe0", "96bdabacf049b83d749175d8"] // читеробус >:) //скиттл >:) //тильда >:)
 var banned = "null" // никто >:)
@@ -187,7 +187,7 @@ cursorCollide = client.on('m', p => {
 
 
 mppClient.on("hi", () => {
-	mppClient.userset({name: "НУУЕ"})
+	mppClient.userset({name: "Tilda/~help"})
 })
 mppClient.on("a", msg => {
     if (msg.a.startsWith(p + "db")) {
