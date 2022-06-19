@@ -280,12 +280,6 @@ mppClient.on("a", msg => {
                 player.play()
                 mppClient.say("Now playing Alec Benjamin - Let Me Down Slowly")
             }
-            if (msg.a.split(" ")[1] == "Loafers") {
-                player.stop()
-                player.loadFile("Loafers.mid")
-                player.play()
-                mppClient.say("Now playing BoyWithUke - Loafers")
-            }
             if (msg.a.split(" ")[1] == "LoL") {
                 player.stop()
                 player.loadFile("LoL.mid")
